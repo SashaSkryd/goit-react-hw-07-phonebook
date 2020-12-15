@@ -45,7 +45,6 @@ class ContactForm extends Component {
   }
   render() {
     const { name, number, isExists } = this.state
-    console.log(isExists)
     return (
       <>
         <form onSubmit={this.handleSubmit} className={style.form}>
